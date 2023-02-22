@@ -11,9 +11,9 @@
 
 n = input('Введите число: ')
 n = int(n)
-res = 0
-pow = 0
+res = 1
+pow = 1
 while res <= n:
-    print(f'{pow} {res}')
+    print(res, end = ' ')
     res = 2**pow
     pow += 1
